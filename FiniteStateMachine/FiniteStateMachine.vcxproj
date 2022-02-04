@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agitated.cpp" />
+    <ClCompile Include="Alert.cpp" />
+    <ClCompile Include="Angry.cpp" />
+    <ClCompile Include="Calm.cpp" />
+    <ClCompile Include="Happy.cpp" />
+    <ClCompile Include="NewMain.cpp" />
+    <ClCompile Include="Surprised.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agitated.h" />
+    <ClInclude Include="Alert.h" />
+    <ClInclude Include="Angry.h" />
+    <ClInclude Include="BaseState.h" />
+    <ClInclude Include="Calm.h" />
+    <ClInclude Include="Happy.h" />
+    <ClInclude Include="Surprised.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +156,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
